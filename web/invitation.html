@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Invitation</title>
+        <meta charset="UTF-8">        
+        <link type="text/css" rel="stylesheet" href="pika.css">
+        <link type="text/css" rel="stylesheet" href="function.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <script>
+            function isValidDate() {
+                var date = document.getElementById("getDate").value;
+                
+                var selected_date = new Date(date);
+                var current_date = new Date();
+                
+                if (selected_date.getTime() < current_date.getTime()) {
+                    alert("The selected date is lesser than the current date");
+                    return false;
+                }
+                else {
+                    return true;
+                }
+            }
+        </script>
+        <div>
+            <img  src="jimages/pikz.png"  alt=""/>         
+        </div>
+        <div id="body">
+            <div id="leftbody">
+                <center>
+                    <h1>Invite Judges</h1>
+                    <form action="insertInvitation.jsp" method="post" name="invitaion" onsubmit="return isValidDate()">
+                        <table>
+                            <tr>
+                                <td>Sportsmeet</td>
+                                <td>
+                                    <select name="meet">
+                                        <option value="Freshers Sportsmeet">Freshers Sportsmeet</option>
+                                        <option value="Annual Sportsmeet">Annual Sportsmeet</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Date</td>
+                                <td><input type="date" name="date" id="getDate" required></td>
+                            </tr>
+                            <tr>
+                                <td>Time</td>
+                                <td><input type="time" name="time" required></td>
+                            </tr>
+                            <tr>
+                                <td>Location</td>
+                                <td><input type="text" name="location" required></td>
+                            </tr>
+                        </table><br><br>
+                        
+                        <input type="reset" value="Reset" id="userEdit">
+                        <input type="submit" value="Submit" id="userEdit">
+                    </form>
+                </center>
+            </div>
+            <div id="rightbody">
+                <center>
+                    <br><br>
+                    <img src="jimages/user1.png" alt="" id="userImg">
+                    <br>
+                    <h2>User Information</h2>
+                    <h4>Pradeepika</h4>
+                    <h4>Meet Manager</h4>
+                    <input type="button" value="Edit Profile" id="userEdit"/><br><br>
+                    <img src="images/calendar.jpg" alt="" id="calendarImg">
+                </center>
+            </div>
+        </div>
+    </body>
+</html>

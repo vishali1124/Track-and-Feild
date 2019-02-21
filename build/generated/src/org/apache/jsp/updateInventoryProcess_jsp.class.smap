@@ -1,0 +1,20 @@
+SMAP
+updateInventoryProcess_jsp.java
+JSP
+*S JSP
+*F
++ 0 updateInventoryProcess.jsp
+updateInventoryProcess.jsp
+*L
+1,14:49
+14:11
+14,2:63
+15:12
+15,2:65
+16:13
+16,2:67
+17:14
+17,2:69
+19,40:72
+58,4:112
+*E

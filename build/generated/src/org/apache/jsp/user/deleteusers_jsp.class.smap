@@ -1,0 +1,16 @@
+SMAP
+deleteusers_jsp.java
+JSP
+*S JSP
+*F
++ 0 deleteusers.jsp
+user/deleteusers.jsp
+*L
+1,2:46
+3,2:48,2
+5:52,3
+6,2:55,2
+9,3:60
+11,25:63
+35,3:88
+*E

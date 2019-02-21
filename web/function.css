@@ -1,0 +1,17 @@
+img{
+    width: 100%;
+}
+#bodyF{
+    width: 100%;
+    height: 850px;
+    background-color: lightblue;
+    text-align: center;
+}
+
+
+#bodyReport{
+    width: 100%;
+    height: 850px;
+    background-color: lightblue;
+}
+

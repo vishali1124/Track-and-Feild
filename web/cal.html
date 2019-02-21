@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+    <title>University of Jaffna Sports Meet Event Calendar</title>
+    <link href="layout.css" rel="stylesheet" type="text/css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.4.0/fullcalendar.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.4.0/fullcalendar.min.js"></script>
+  
+  
+  
+ 
+  <script>
+   
+  $(document).ready(function() {
+   var cal = $('#eventCalendar').fullCalendar({
+      
+      header:{
+        right:'prev,today,next',
+        center:'title',
+        left:'month,agendaDay'
+       },
+        editable:true,
+        selectable:true,
+        selectHelper:true,
+        eventlimit:true,
+        events: '',
+   });
+        
+  });
+  </script>
+    </head>
+   <body>
+       <div class="header">
+            <img class="header_img" src="header.png" alt="" />
+        </div>
+  <br />
+  <h2 align="center" ><font color="Darkblue">Sports meet Event Calendar University Of Jaffna<img src="sche.jpg" width="10%" height="15%" align="left"/></font></h2>
+  <br />
+  <div class="container">
+      <!--<div align="right" ><img src="sche.jpg" width="10%" height="10%"/></div>-->
+   <div id="eventCalendar"></div>
+  </div>
+ </body>
+</html>
+

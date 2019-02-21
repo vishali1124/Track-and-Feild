@@ -1,0 +1,63 @@
+img{
+    width: 100%;
+}
+#body{
+    width: 100%;
+    height: 524px;
+}
+#leftbody{
+    width: 76%;
+    height: 524px;
+    float: left;
+    background-color: lightblue;
+}
+#rightbody{
+    width: 24%;
+    height: 524px;
+    float: right;
+    background-color: lightgrey;
+}
+#addImg,#updateImg,#inviteImg,#availableImg,#allocateImg,#viewImg{
+    width: 210px;
+    height: 210px;
+    border-radius: 10px;
+}
+#deleteImg,#reportImg{
+    width: 205px;
+    height: 205px;
+    border-radius: 10px;
+}
+#userImg{
+    width: 100px;
+    height: 100px;  
+}
+#userEdit{
+    border-radius: 20px;
+    height: 38px;
+    width: 150px;
+    background-color: whitesmoke;
+    font-size: 15px;
+}
+#calendarImg{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+#fresh{
+    width: 499px;
+    height: 524px;
+    float: left;
+}
+#anul{
+    width: 500px;
+    height: 524px;
+    float: right;
+}
+#gender{
+    width: 235px;
+    height: 390px;
+}
+
+
+
+

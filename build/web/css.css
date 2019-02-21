@@ -1,0 +1,50 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 11, 2018, 7:57:18 PM
+    Author     : User
+*/
+body{
+    margin: 0;
+    padding: 0;
+    background: url(book.png);
+    
+    background-position: center;
+    font-family: sans-serif;
+    
+        
+}
+.box{
+    width: 500px;
+    height: 700px;
+    background: black;
+    color: #fff;
+    top:60%;
+    left:50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+        
+}
+.box input{
+    width:80%;
+    margin-bottom: 20px;
+    font-size: 20px
+}
+.box input[type="text"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background:transparent;
+    height: 40px;
+    outline: none;
+    color: #fff;
+    font-size: 18px
+}
+.box p{
+    margin: o;
+    padding:0;
+    font-weight: bold;
+}

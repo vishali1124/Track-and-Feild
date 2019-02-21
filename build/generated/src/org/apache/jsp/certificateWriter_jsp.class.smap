@@ -1,0 +1,12 @@
+SMAP
+certificateWriter_jsp.java
+JSP
+*S JSP
+*F
++ 0 certificateWriter.jsp
+certificateWriter.jsp
+*L
+1,49:44
+50,3:93,3
+53,16:102
+*E

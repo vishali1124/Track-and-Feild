@@ -1,0 +1,14 @@
+SMAP
+iAdd_jsp.java
+JSP
+*S JSP
+*F
++ 0 iAdd.jsp
+inventory/iAdd.jsp
+*L
+1,22:48
+23:70,3
+24,8:73
+32,25:82
+56,46:107
+*E

@@ -1,0 +1,30 @@
+.pic{
+    padding-top: 100px;
+    position: relative;
+    font-family: Arial;
+    padding-left: 200px;
+}
+
+.pic img{
+    float: left;
+    width:150px;
+    height:150px;
+    padding-right: 300px;
+    padding-bottom: 150px;
+    opacity: 0.8; 
+    cursor: pointer;
+}
+
+.pic img:hover{
+    
+    opacity: 3;
+}
+
+.text-block {
+    position: absolute; 
+    background-color: darkslateblue;
+    color: white; 
+    
+}
+
+

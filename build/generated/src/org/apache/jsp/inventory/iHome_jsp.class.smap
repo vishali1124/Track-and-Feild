@@ -1,0 +1,16 @@
+SMAP
+iHome_jsp.java
+JSP
+*S JSP
+*F
++ 0 iHome.jsp
+inventory/iHome.jsp
+*L
+1,2:44
+4,4:47
+7,14:51
+21:65,3
+22,65:68
+87,3:133,3
+90,19:142
+*E

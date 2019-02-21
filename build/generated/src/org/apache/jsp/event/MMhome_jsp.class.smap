@@ -1,0 +1,14 @@
+SMAP
+MMhome_jsp.java
+JSP
+*S JSP
+*F
++ 0 MMhome.jsp
+event/MMhome.jsp
+*L
+5,13:44
+18:57,3
+19,64:60
+83,3:124,3
+86,19:133
+*E
